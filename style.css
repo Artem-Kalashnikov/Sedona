@@ -316,6 +316,11 @@
     .container{
         max-width: 320px;
     }
+    .center{
+        width:102px;
+        height: 84px;
+        background-image: url(./logo_adaptiv.png);
+    }
     .intro{
         background-size: cover;
         display: flex;
@@ -327,7 +332,13 @@
     .intro__text{
         background-image: url(./text-first-adaptiv.png);
         background-repeat: no-repeat;
-        background-position-x: 50%;
+        width: 282px;
+        height: 214px;
+        margin: 0 20px;
+        padding: 0;
+        left: 0%;
+        right: 0%;
+        overflow-x: hidden;
     }
     .header__item{
         display: none;
@@ -424,9 +435,17 @@
         justify-self: center;
     }
     .hesh{
+        width: 100%;
         margin-bottom: 30px;
     }
     .label{
+        width: 100%;
         margin-top: 30px;
+    }
+    .social{
+        width: 100%;
+    }
+    *{
+        max-width: 320px;
     }
 }
