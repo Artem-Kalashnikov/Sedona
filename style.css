@@ -319,8 +319,7 @@
     .center{
         width:102px;
         height: 84px;
-        left: 0%;
-        margin-left: 109px;
+        left: 50%;
         background-image: url(./logo_adaptiv.png);
     }
     .intro{
@@ -448,6 +447,7 @@
         width: 100%;
     }
     *{
+        margin: 0 auto;
         max-width: 320px;
     }
 }
