@@ -365,11 +365,11 @@
     }
     .reason__first--left{
         width: 320px;
-        height: 211px;
+        height: 220px;
     }
     .reason__first--right{
         width: 320px;
-        height: 211px;
+        height: 220px;
         background-size: cover;
     }
     .reason__first--item{
@@ -410,8 +410,11 @@
         width: 260px;
     }
     .interesting{
+        display: flex;
+        justify-content: center;
         width: 320px;
-        margin: 0 auto;
+        margin: 20px auto;
+        align-items: center;
     }  
     
     .footer{
