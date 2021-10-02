@@ -319,6 +319,8 @@
     .center{
         width:102px;
         height: 84px;
+        left: 0%;
+        margin-left: 109px;
         background-image: url(./logo_adaptiv.png);
     }
     .intro{
